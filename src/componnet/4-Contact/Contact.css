@@ -1,0 +1,190 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.contact .title {
+  color: var(--title);
+  margin-top: 4rem;
+  margin-bottom: 1.3rem;
+  gap: 0.7rem;
+}
+.icon-mail-envelope-closed {
+  font-size: 3.2rem;
+  color: var(--subtitle);
+}
+.contact .subtitle {
+  color: var(--subtitle);
+  line-height: 1.6rem;
+}
+section .label {
+  color: var(--subtitle);
+  margin-top: 3rem;
+  display: grid;
+}
+.Email,
+.Message {
+  text-align: center;
+  margin-right: 1rem ;
+  padding: .4rem 0;
+  border-radius: 5px;
+  border: 1px solid rgb(78, 73, 73);
+  background-color: rgba(135, 135, 174, 0.368);
+}
+.Email:focus,
+.Message:focus {
+ background-color:rgb(18, 65, 58);
+  border: 1px solid rgb(45 212 191);
+}
+.Email:hover,
+.Message:hover {
+  border: 1px solid rgb(45 212 191);
+}
+
+.Add,
+.you {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.Add {
+  margin-bottom: 2rem;
+}
+form .subm {
+  padding: 0.4rem 1.2rem;
+  background-color: rgb(87, 87, 116);
+  width: 5rem;
+  text-align: center;
+  color: var(--title);
+  margin-top: 2rem;
+  border-radius: 9px;
+  margin-left: 4px;
+  border: 1px solid rgb(63, 63, 70);
+}
+form .subm:hover{
+    scale: 0.97;
+}
+.link {
+  gap: 1rem;
+  padding-left: 9rem;
+}
+.link a {
+  font-weight: 400;
+  color: var(--subtitle);
+  transition: .6s;
+}
+.par {
+  color: antiquewhite;
+  margin-top: 2rem;
+  padding-left: 7rem;
+}
+.light .par {
+  color: rgb(18, 65, 58);
+}
+.link a:hover{
+ 
+  color: var(--blue);
+  scale: 1.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1050px) {
+.animation{display: none;}
+  .link {
+    padding-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .par {
+    padding-left: 0rem;
+    width: 22rem;
+  }
+  .footer-link{
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
+.animation{display: none;}
+  section .label {
+    display: flex;
+flex-direction: column;
+ align-items: center;
+ flex-wrap: wrap;
+  gap: 2.64rem;
+  width: 100%;
+  
+ 
+}
+.Email,
+.Message {padding: 1rem}
+ .Add,.you {
+    display: flex;
+flex-direction: column;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.footer-link{
+  display: flex;
+  flex-direction: column;
+
+ 
+
+ 
+ align-items: center;
+padding-right: 10rem;
+
+
+
+}
+.footer-link .par {
+  color: var(--subtitle);
+  margin-top: 2rem;
+  width: 22rem;
+}
+}
+@media (max-width: 400px) {
+  .link {
+    padding-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .par {
+    padding-left: 0rem;
+    width: 20rem;
+  }
+}

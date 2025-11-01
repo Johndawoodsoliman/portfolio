@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/projectReact/static/css/main.62b2c346.css",
+    "main.js": "/projectReact/static/js/main.c362b309.js",
+    "static/js/453.ed3810f9.chunk.js": "/projectReact/static/js/453.ed3810f9.chunk.js",
+    "static/media/slider-4.jpg": "/projectReact/static/media/slider-4.a2ba7fd719a04a37183d.jpg",
+    "static/media/slider-2.jpg": "/projectReact/static/media/slider-2.1ce845615cb7d53b814a.jpg",
+    "static/media/slider-1.jpg": "/projectReact/static/media/slider-1.ff9d6033cdc3a7360e5e.jpg",
+    "static/media/slider-3.jpg": "/projectReact/static/media/slider-3.4fc79eb9a4700d3801bf.jpg",
+    "static/media/slick.svg": "/projectReact/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/projectReact/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/projectReact/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/projectReact/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/projectReact/index.html",
+    "main.62b2c346.css.map": "/projectReact/static/css/main.62b2c346.css.map",
+    "main.c362b309.js.map": "/projectReact/static/js/main.c362b309.js.map",
+    "453.ed3810f9.chunk.js.map": "/projectReact/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62b2c346.css",
+    "static/js/main.c362b309.js"
+  ]
+}
