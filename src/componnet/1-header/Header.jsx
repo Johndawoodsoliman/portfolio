@@ -42,8 +42,6 @@ export default function Header() {
             </Link>
           </li>
 
-         
-
           <li>
             <Link
               to="/"
@@ -71,7 +69,14 @@ export default function Header() {
             </HashLink>
           </li>
           <li>
-            <Link to="/users">Users</Link>
+            <Link
+              to="/Iam"
+              onClick={() => {
+                setShowModel(false);
+              }}
+            >
+              I'm
+            </Link>
           </li>
         </ul>
       </nav>
@@ -136,8 +141,8 @@ export default function Header() {
               </HashLink>
             </li>
             <li>
-              <Link to="/users" onClick={(e) => setShowModel(false)}>
-                Users
+              <Link to="/Iam" onClick={(e) => setShowModel(false)}>
+                I'm
               </Link>
             </li>
           </ul>

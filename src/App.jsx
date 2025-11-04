@@ -7,6 +7,7 @@ import Mine from "./componnet/3-mine/Mine";
 
 import Contact_us from "./componnet/4-Contact/Contact-us";
 import Projects from "./componnet/Projects/Projects";
+import Iam from "./componnet/Iam/Iam";
 
 export default function App() {
   const [showScroll, setShowScroll] = useState(false);
@@ -46,6 +47,7 @@ export default function App() {
           }
         />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/Iam" element={<Iam />} />
       </Routes>
 
       {/* زر الرجوع لأعلى الصفحة */}

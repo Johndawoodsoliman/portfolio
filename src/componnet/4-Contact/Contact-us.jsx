@@ -4,7 +4,6 @@ import Lottie from "lottie-react";
 import "./Contact.css";
 import DoneAnimation from "../../animation/success.json";
 
-
 import { useForm, ValidationError } from "@formspree/react";
 export default function ContactUs() {
   const [state, handleSubmit] = useForm("mldpopyb");
