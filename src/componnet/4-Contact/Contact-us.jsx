@@ -88,10 +88,10 @@ export default function ContactUs() {
       <div className="divider" />
       <div className="footer-link flex column">
         <div className="flex link">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Speaking</a>
-          <a href="#">Users</a>
+          <a href="/Iam">About</a>
+          <a href="/">Projects</a>
+          <a href="/Iam">Speaking</a>
+          
         </div>
         <p className="par">@ 2023 Spencer Sharp. All rights reserved</p>
       </div>

@@ -1,7 +1,9 @@
 /* main */
 .All2.flex {
+
+
   gap: 2.54rem;
-  align-items: start;
+ 
 }
 
 /* mainLeft */
@@ -49,7 +51,7 @@ main section.mainLeft button:hover {
 
 /* بعد الصوره محتواي الاول* */
 .right-section.flex {
-  display: flex;
+  
   flex-grow: 1;
   gap: 16px;
   flex-wrap: wrap;
