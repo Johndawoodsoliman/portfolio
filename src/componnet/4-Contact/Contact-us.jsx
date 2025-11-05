@@ -5,13 +5,23 @@ import "./Contact.css";
 import DoneAnimation from "../../animation/success.json";
 
 import { useForm, ValidationError } from "@formspree/react";
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { HashLink } from "react-router-hash-link";
 export default function ContactUs() {
   const [state, handleSubmit] = useForm("mldpopyb");
+   const [ShowModel, setShowModel] = useState(false);
+
+
+    useEffect(() => {
+      setShowModel(false);
+    }, [location.pathname]);
  
   return (
     <section id="contact-us" className="contact">
       <h1 className="title flex">
-        <span className="icon-mail-envelope-closed" />Contact-US
+        <span className="icon-mail-envelope-closed" />
+        Contact-US
       </h1>
       <p className="subtitle">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit ipsum
@@ -88,10 +98,19 @@ export default function ContactUs() {
       <div className="divider" />
       <div className="footer-link flex column">
         <div className="flex link">
-          <a href="/Iam">About</a>
-          <a href="/">Projects</a>
-          <a href="/Iam">Speaking</a>
-          
+          <Link to="/" onClick={() => setShowModel(false)}>
+            About
+          </Link>
+          <HashLink
+            smooth
+            to="/#contact-us"
+            onClick={() => {
+              setShowModel(false);
+            }}
+          >
+            Contact us
+          </HashLink>
+          <Link to="/Iam">I'm</Link>
         </div>
         <p className="par">@ 2023 Spencer Sharp. All rights reserved</p>
       </div>
