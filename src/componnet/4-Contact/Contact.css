@@ -27,15 +27,15 @@ section .label {
 .Email,
 .Message {
   text-align: center;
-  margin-right: 1rem ;
-  padding: .4rem 0;
+  margin-right: 1rem;
+  padding: 0.4rem 0;
   border-radius: 5px;
   border: 1px solid rgb(78, 73, 73);
   background-color: rgba(135, 135, 174, 0.368);
 }
 .Email:focus,
 .Message:focus {
- background-color:rgb(18, 65, 58);
+  background-color: rgb(18, 65, 58);
   border: 1px solid rgb(45 212 191);
 }
 .Email:hover,
@@ -63,8 +63,8 @@ form .subm {
   margin-left: 4px;
   border: 1px solid rgb(63, 63, 70);
 }
-form .subm:hover{
-    scale: 0.97;
+form .subm:hover {
+  scale: 0.97;
 }
 .link {
   gap: 1rem;
@@ -73,7 +73,7 @@ form .subm:hover{
 .link a {
   font-weight: 400;
   color: var(--subtitle);
-  transition: .6s;
+  transition: 0.6s;
 }
 .par {
   color: antiquewhite;
@@ -83,38 +83,15 @@ form .subm:hover{
 .light .par {
   color: rgb(18, 65, 58);
 }
-.link a:hover{
- 
+.link a:hover {
   color: var(--blue);
   scale: 1.1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1050px) {
-.animation{display: none;}
+@media (max-width: 1050px) {
+  .animation {
+    display: none;
+  }
   .link {
     padding-left: 0rem;
     display: flex;
@@ -126,54 +103,47 @@ form .subm:hover{
     padding-left: 0rem;
     width: 22rem;
   }
-  .footer-link{
+  .footer-link {
     padding-right: 0rem;
     display: flex;
     flex-direction: column;
   }
 }
 
-
-
-
 @media (max-width: 600px) {
-.animation{display: none;}
+  .animation {
+    display: none;
+  }
   section .label {
     display: flex;
-flex-direction: column;
- align-items: center;
- flex-wrap: wrap;
-  gap: 2.64rem;
-  width: 100%;
-  
- 
-}
-.Email,
-.Message {padding: 1rem}
- .Add,.you {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.64rem;
+    width: 100%;
+  }
+  .Email,
+  .Message {
+    padding: 1rem;
+  }
+  .Add,
+  .you {
     display: flex;
-flex-direction: column;
- align-items: center;
- flex-wrap: wrap;
-}
-.footer-link{
-  display: flex;
-  flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer-link {
+    display: flex;
+    flex-direction: column;
 
- 
-
- 
- align-items: center;
-padding-right: 10rem;
-
-
-
-}
-.footer-link .par {
-  color: var(--subtitle);
-  margin-top: 2rem;
-  width: 22rem;
-}
+    align-items: center;
+  }
+  .footer-link .par {
+    color: var(--subtitle);
+    margin-top: 2rem;
+    width: 22rem;
+  }
 }
 @media (max-width: 400px) {
   .link {

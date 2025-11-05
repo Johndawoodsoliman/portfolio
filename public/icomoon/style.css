@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?7vpr7g');
-  src:  url('fonts/icomoon.eot?7vpr7g#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?7vpr7g') format('truetype'),
-    url('fonts/icomoon.woff?7vpr7g') format('woff'),
-    url('fonts/icomoon.svg?7vpr7g#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7j4ct8');
+  src:  url('fonts/icomoon.eot?7j4ct8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7j4ct8') format('truetype'),
+    url('fonts/icomoon.woff?7j4ct8') format('woff'),
+    url('fonts/icomoon.svg?7j4ct8#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
+  
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -29,7 +29,7 @@
   content: "\e910";
 }
 .icon-adjust-brightness:before {
-  content: "\e912";
+  content: "\31";
 }
 .icon-weather-partly-sunny:before {
   content: "\e913";
@@ -85,8 +85,15 @@
 .icon-linkedin:before {
   content: "\e905";
 }
+.icon-whatsapp:before {
+  content: "\e912";
+  color: #25d366;
+}
 .icon-sun:before {
   content: "\e9d4";
+}
+.icon-whatsapp1:before {
+  content: "\ea93";
 }
 .icon-github:before {
   content: "\eab0";

@@ -28,9 +28,15 @@ export default function Iam() {
             {/* تعريف */}
             <div>
               <p>Hello,I'M</p>
-              <h1>John Dawood</h1>
+              <div className="whatt">
+               
+                <span className="icon-whatsapp"/>
+                01279443751
+              </div>
+
+              <h1 className="joo">John Dawood</h1>
             </div>
-            <h2>Frontend Developer</h2>
+            <h2 className="forr">Frontend Developer</h2>
             <div className="mad">
               <p className="designing">
                 Front-End Engineer specialized in designing and developing
