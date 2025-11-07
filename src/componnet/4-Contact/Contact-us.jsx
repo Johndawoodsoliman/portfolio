@@ -98,11 +98,18 @@ export default function ContactUs() {
       <div className="divider" />
       <div className="footer-link flex column">
         <div className="flex link">
-          <Link to="/" onClick={() => setShowModel(false)}>
+          <Link
+            to="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setShowModel(false)}
+          >
             About
           </Link>
           <HashLink
             smooth
+          
+            rel="noopener noreferrer"
             to="/#contact-us"
             onClick={() => {
               setShowModel(false);
@@ -110,7 +117,9 @@ export default function ContactUs() {
           >
             Contact us
           </HashLink>
-          <Link to="/Iam">I'm</Link>
+          <Link to="/Iam" target="_blank" rel="noopener noreferrer">
+            I'm
+          </Link>
         </div>
         <p className="par">@ 2023 Spencer Sharp. All rights reserved</p>
       </div>

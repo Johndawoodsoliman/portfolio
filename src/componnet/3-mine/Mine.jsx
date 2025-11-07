@@ -29,7 +29,7 @@ export default function Mine() {
     <main className="All2  flex">
       {/***********************  Section Left  ****************************/}
 
-      <section className="mainLeft ">
+      <section className="mainLeft   ">
         <button
           onClick={() => {
             setcurrentActive("all");
