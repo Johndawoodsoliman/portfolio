@@ -44,18 +44,18 @@ export const myProjects = [
   {
     id: 6,
     link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app ",
-    title: "node project",
-    category: ["node"],
+    title: "tailwind css project",
+    category: ["tailwind css"],
     imgPath: "./images/5.jpg",
-    P: "This Node.js project highlights my skills in building robust backend applications. It focuses on server-side logic, database integration, and API development. The result is a scalable and efficient server environment that supports dynamic web applications.",
+    P: "This Tailwind CSS project highlights my skills in building responsive and customizable UI components. It focuses on utility-first design principles, rapid development, and clean code structure. The result is a fast and maintainable frontend experience.",
   },
   {
     id: 7,
     link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app ",
-    title: "node project",
-    category: ["node"],
+    title: "tailwind css project",
+    category: ["tailwind css"],
     imgPath: "./images/8.jpg",
-    P: "This Node.js project highlights my skills in building robust backend applications. It focuses on server-side logic, database integration, and API development. The result is a scalable and efficient server environment that supports dynamic web applications.",
+    P: "This tailwind css project highlights my skills in building robust backend applications. It focuses on server-side logic, database integration, and API development. The result is a scalable and efficient server environment that supports dynamic web applications.",
   },
 
   {

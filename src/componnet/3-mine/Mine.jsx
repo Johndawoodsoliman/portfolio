@@ -89,7 +89,7 @@ export default function Mine() {
         >
           react & mui
         </button>
-
+{/* 
         <button
           onClick={() => {
             setcurrentActive("node");
@@ -105,7 +105,7 @@ export default function Mine() {
           className={currentActive === "node" ? "active" : null}
         >
           Node & express
-        </button>
+        </button> */}
       </section>
 
       {/************************ section Right ***********************************/}
