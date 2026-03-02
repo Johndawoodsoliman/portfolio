@@ -27,7 +27,8 @@ export const myProjects = [
   },
   {
     id: 4,
-    link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app",
+    // link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app",
+    link: "https://github.com/Johndawoodsoliman/my-tours.git",
     title: "UI-MATERIAL ",
     category: ["react"],
     imgPath: "/images/old.png",
@@ -35,7 +36,7 @@ export const myProjects = [
   },
   {
     id: 5,
-    link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app",
+    link: "https://github.com/Johndawoodsoliman/my-tours.git",
     title: "NEXT project",
     category: ["js"],
     imgPath: "/images/new.png",
@@ -43,7 +44,7 @@ export const myProjects = [
   },
   {
     id: 6,
-    link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app ",
+    link: "https://github.com/Johndawoodsoliman/my-tours.git ",
     title: "tailwind css project",
     category: ["tailwind css"],
     imgPath: "./images/5.jpg",
@@ -51,7 +52,7 @@ export const myProjects = [
   },
   {
     id: 7,
-    link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app ",
+    link: "https://github.com/Johndawoodsoliman/my-tours.git ",
     title: "tailwind css project",
     category: ["tailwind css"],
     imgPath: "./images/8.jpg",
@@ -60,7 +61,7 @@ export const myProjects = [
 
   {
     id: 11,
-    link: "https://my-go-template.vercel.app/ ",
+    link: "https://github.com/Johndawoodsoliman/my-go--template.git",
     title: "react project",
     category: ["react"],
     imgPath: "./images/b.png",
