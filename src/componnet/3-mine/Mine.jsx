@@ -152,7 +152,7 @@ export default function Mine() {
                   </div>
 
                   <a className="link flex" target="_blink" href={item.link}>
-                    more <span className="icon-arrow-right" />
+                    moreee <span className="icon-arrow-right" />
                   </a>
                 </div>
               </motion.div>
