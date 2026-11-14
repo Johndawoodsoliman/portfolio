@@ -1,19 +1,21 @@
+
 {
-    "projects": {
-        "default": "portfolio-2025-17445"
-    },
-    "hosting": {
-        "public": "dist",
-        "ignore": [
-            "firebase.json",
-            "**/.*",
-            "**/node_modules/**"
-        ],
-        "rewrites": [
-            {
-                "source": "**",
-                "destination": "/index.html"
-            }
-        ]
-    }
+  "projects": {
+    "default": "portfolio-2025-17445"
+  },
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/**",
+        "destination": "https://john-dawood-portfolio.vercel.app/:splat",
+        "type": 302
+      }
+    ]
+  }
 }
