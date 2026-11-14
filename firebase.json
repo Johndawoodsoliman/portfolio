@@ -9,7 +9,7 @@
     ],
     "redirects": [
       {
-       "source": "/:path*",
+       "source": "**",
       "destination": "https://john-dawood-portfolio.vercel.app/:path",
         "type": 302
       }
