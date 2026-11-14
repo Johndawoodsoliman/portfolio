@@ -10,7 +10,7 @@
     "redirects": [
       {
        "source": "/:path*",
-        "destination": "https://john-dawood-portfolio.vercel.app",
+      "destination": "https://john-dawood-portfolio.vercel.app/:path",
         "type": 302
       }
     ]
