@@ -52,7 +52,7 @@ export const myProjects = [
   },
   {
     id: 7,
-    link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app",
+    link: "https://my-go-template.vercel.app/",
     title: "tailwind css project",
     category: ["tailwind css"],
     imgPath: "./images/8.jpg",
