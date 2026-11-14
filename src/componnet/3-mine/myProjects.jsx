@@ -53,7 +53,7 @@ export const myProjects = [
   {
     id: 7,
     link: "https://my-go-template.vercel.app/",
-    title: "tailwind css project",
+    title: "سياحه قديم",
     category: ["tailwind css"],
     imgPath: "./images/8.jpg",
     P: "This tailwind css project highlights my skills in building robust backend applications. It focuses on server-side logic, database integration, and API development. The result is a scalable and efficient server environment that supports dynamic web applications.",
