@@ -1,8 +1,5 @@
 
 {
-  "projects": {
-    "default": "portfolio-2025-17445"
-  },
   "hosting": {
     "public": "dist",
     "ignore": [
@@ -12,8 +9,8 @@
     ],
     "redirects": [
       {
-        "source": "/**",
-        "destination": "https://john-dawood-portfolio.vercel.app/:splat",
+        "source": "**",
+        "destination": "https://john-dawood-portfolio.vercel.app",
         "type": 302
       }
     ]
