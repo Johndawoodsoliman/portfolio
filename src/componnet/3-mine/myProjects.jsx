@@ -3,7 +3,7 @@ import { href } from "react-router-dom";
 export const myProjects = [
   {
     id: 1,
-    title: "job",
+    title: "سياحه",
     category: ["react"],
     link: "https://my-tours-git-main-johns-projects-a95d2ab7.vercel.app",
     imgPath: "/images/new.png",
